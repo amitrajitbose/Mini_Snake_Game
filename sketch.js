@@ -2,6 +2,7 @@ var s;
 var scl = 10;
 var food;
 
+//Function to set up the canvas and its dimensions too
 function setup() {
   createCanvas(600, 600);
   s = new Snake();
@@ -10,6 +11,7 @@ function setup() {
 
 }
 
+//Function to pick a location randomly on the canvas
 function pickLocation() {
   var cols = floor(width/scl);
   var rows = floor(height/scl);
@@ -17,10 +19,12 @@ function pickLocation() {
   food.mult(scl);
 }
 
+//Function to respond to mouse press
 function mousePressed() {
   s.total++;
 }
 
+//Basic function to draw the food on canvas
 function draw() {
   background(51);
 
@@ -39,7 +43,7 @@ function draw() {
 
 
 
-
+//Function to respond to user's arrow key press
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     s.dir(0, -1);
@@ -52,6 +56,7 @@ function keyPressed() {
 }
 }
 
+//Main Function for the snake body
 function Snake() {
   this.x = 0;
   this.y = 0;
