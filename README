@@ -1,0 +1,18 @@
+Programmed By: Amitrajit Bose
+
+This is a small project with the basics of Javascript, HTML and p5.js module.
+
+I named this simply as "Mini_Snake_Game" because it is an age old classical snake game that runs on the web browser and the snake is guided by the user's key arrow controls to eat the food and grow in length.
+
+Feel free to make this project better.
+
+
+Some advancements that are needed:
+
+1) Welcome screen should be added. The game should start when the user wants to start it.
+2) Score and Game Over is missing.
+3) Menu is missing. There should be a menu that asks the user what he/she wants to do or may be some other customizations.
+4) There should be difficulty levels in the game that will come layer by layer after fixed time intervals.
+5) Sound and Animation
+
+HOW TO PLAY: Run the index.html file on your web browser and use arrow keys for moving the snake.
