@@ -1,4 +1,6 @@
-Programmed By: Amitrajit Bose
+THE MINI SNAKE GAME
+
+Author: Amitrajit Bose
 
 This is a small project with the basics of Javascript, HTML and p5.js module.
 
@@ -15,4 +17,15 @@ Some advancements that are needed:
 4) There should be difficulty levels in the game that will come layer by layer after fixed time intervals.
 5) Sound and Animation
 
-HOW TO PLAY: Run the index.html file on your web browser and use arrow keys for moving the snake.
+HOW TO PLAY: 
+
+Method 1-
+
+1)Download GitBash and clone the link of the repository.
+2)Run the index.html file on your web browser and use arrow keys for moving the snake.
+
+Method 2-
+
+1)Download the ZIP file for the repository.
+2)Unzip in your system.
+3)Run the index.html file on your web browser and use arrow keys for moving the snake.
