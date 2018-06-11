@@ -4,7 +4,8 @@ var food;
 
 //Function to set up the canvas and its dimensions too
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(1340, 640);
+  alert("Welcome To The Mini Snake Game\nCreated By Amitrajit Bose\n\nUse Arrows to Navigate\nPress P to Pause")
   s = new Snake();
   frameRate(10);
   pickLocation();
@@ -60,7 +61,7 @@ function keyPressed() {
   }
   else if (keyCode === 80) {
     //s.dir(0, 0);
-    alert("PAUSED! Click To Start Again");
+    alert("PAUSED! Press Enter To Start Again");
   }
 }
 
@@ -93,7 +94,7 @@ function Snake() {
       var pos = this.tail[i];
       var d = dist(this.x, this.y, pos.x, pos.y);
       if (d < 1) {
-        alert("GAME OVER! Starting Again..");
+        alert("GAME OVER! Press Enter To Start Again");
         this.total = 0;
         this.tail = [];
       }
