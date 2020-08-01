@@ -4,8 +4,8 @@ var food;
 
 //Function to set up the canvas and its dimensions too
 function setup() {
-  createCanvas(1340, 640);
-  alert("Welcome To The Mini Snake Game\nCreated By Amitrajit Bose\n\nUse Arrows to Navigate\nPress P to Pause")
+  createCanvas(640, 480);
+  alert("Welcome To The Mini Snake Game\Developed By Amitrajit Bose\n\nUse Arrows to Navigate\nPress P to Pause")
   s = new Snake();
   frameRate(10);
   pickLocation();
